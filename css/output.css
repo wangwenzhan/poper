@@ -1,0 +1,284 @@
+html {
+    font-size: 100%;/*  62.5%; 10 ÷ 16 × 100% = 62.5%*/
+    height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #eeeeee;
+}
+body {
+    font-size: 1.6rem;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #eeeeee;
+}
+div {
+    margin: 0rem;
+    padding: 0rem;
+}
+input {
+    margin: 0rem;
+    padding: 0rem;
+}
+textarea {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.cpointer {
+    cursor: pointer;
+}
+
+/*  div 位置 大小 背景  */
+.div_header {
+    position: absolute;
+	top: 0rem;
+	left: 0rem;
+    width: 100%;
+    height: 5rem;
+	background-color: #000;
+}
+.div_title {
+    position: absolute;
+    top: 1.3rem;
+    left: 5rem;
+    right: 8.6rem;
+    height: 2.6rem;
+    overflow-y: auto;
+}
+.div_title_up {
+    position: absolute;
+    top: 0.2rem;
+    left: 5rem;
+    right: 8.6rem;
+    height: 2.4rem;
+    overflow: hidden;
+}
+.div_title_down {
+    position: absolute;
+    top: 2.6rem;
+    left: 5rem;
+    right: 8.6rem;
+    height: 2.4rem;
+    overflow: hidden;
+}
+.div_maintitle {
+    position: absolute;
+    top: 0.5rem;
+    left: 5rem;
+    right: 10rem;
+}
+.div_subtitle {
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+    right: 10rem;
+}
+
+.div_middle {
+    position: absolute;
+	top: 5rem;
+	left: 0rem;
+    bottom: 2rem;
+    right: 0rem;
+	background-color: white;
+}
+.div_menu {
+    position: absolute;
+	top: 0rem;
+	left: 0rem;
+    bottom: 0rem;
+    width: 20rem;
+	background-color: #666;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.div_content {
+    position: absolute;
+	top: 0rem;
+	left: 20rem;
+    bottom: 0rem;
+    right: 0rem;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.div_footer {
+    position: absolute;
+    width: 100%;
+    height: 2rem;
+	bottom: 0rem;
+	left: 0rem;
+	background-color: #aaaaaa;
+    overflow: hidden;
+}
+.div_actionbar {
+    position: absolute;
+    width: 100%;
+    height: 2.6rem;
+	top: 0rem;
+	left: 0rem;
+	background-color: #aaaaaa;
+    overflow: hidden;
+}
+.div_info {
+    position: absolute;
+    width: 100%;
+    height: 2rem;
+	top: 5rem;
+    background-color: #cccccc;
+    visibility: hidden;
+}
+
+.div_tool {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+	top: 7rem;
+    left: 2rem;
+    background-color: #eeeeee;
+    border-style: dotted;
+    visibility: hidden;
+    overflow-y: auto;
+}
+
+.div_button {
+    position: absolute;
+    left: 3rem;
+    right: 3rem;
+}
+.div_actree {
+    position: relative;
+	top: 0rem;
+	left: 0rem;
+    right: 0rem;
+    border-bottom: gray;
+    border-bottom-width: 0.1rem;
+    border-bottom-style: dotted;
+    overflow-y: hidden;
+}
+.div_menuitem {
+    position: relative;
+	top: 0rem;
+	left: 0rem;
+    right: 0rem;
+    border-bottom: gray;
+    border-bottom-width: 0.1rem;
+    border-bottom-style: dotted;
+    overflow-y: auto;
+}
+.div_item {
+    position: relative;
+	top: 0rem;
+	left: 0rem;
+    right: 0rem;
+    border-bottom: gray;
+    border-bottom-width: 0.1rem;
+    border-bottom-style: dotted;
+    overflow-y: auto;
+}
+.div_item_content {
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+    cursor: pointer;
+    margin-right: 15rem;
+}
+.div_item_title {
+    position: relative;
+    left: 0.2rem;
+    top: 0rem;
+    font-size: 1.5rem;
+}
+.div_item_subtitle {
+    position: relative;
+    left: 0.2rem;
+    top: 0rem;
+    font-size: 1.2rem;
+}
+
+.div_item_button {
+    position: absolute;
+    top: 0rem;
+    font-size: 1.2rem;
+    color: gray;
+    cursor: pointer;
+    overflow: hidden;
+    margin: auto;
+    border-width: 1px;
+    border-style: dotted;
+}
+.div_item_info {
+    position: absolute;
+    top: 0.9rem;
+    font-size: 1.2rem;
+    color: gray;
+    overflow: hidden;
+}
+.div_label_button {
+    position: absolute;
+    top: 0.9rem;
+    font-size: 1.4rem;
+    color: forestgreen;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* font size */
+.fs_title {
+    font-size: 1.6rem;
+}
+.fs_subtitle {
+    font-size: 1.4rem;
+}
+.fs_info {
+    font-size: 1.4rem;
+}
+.fs_label {
+    font-size: 1.4rem;
+}
+.fs_label_s {
+    font-size: 1.2rem;
+}
+.fs_input {
+    font-size: 1.4rem;
+    height: 2rem;
+}
+.fs_input_s {
+    font-size: 1.2rem;
+}
+
+
+/* font color */
+.fc_header {
+    color: white;
+}
+.fc_content {
+    color: black;
+}
+.fc_footer {
+    color: white;
+}
+.fc_button {
+    color: forestgreen;
+    cursor: pointer;
+}
+.fc_info {
+    color: red;
+}
+
+/* font alignment */
+.fa_center {
+    text-align: center;
+}
+
+/* img size */
+.img_header {
+    position: absolute;
+    top: 1rem;
+    width: 2.8rem;
+    height: 2.8rem;
+    cursor: pointer;
+}
+
