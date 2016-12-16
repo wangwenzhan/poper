@@ -11,7 +11,7 @@
             var i = '<?php echo $item['id']; ?>';
             sactree_save(i);
             " >保存</div>
-        <div class="div_item_button" style="top: 0.3rem;right:13rem; " onclick="
+        <div class="div_item_button" style="top: 0.3rem;right:18rem; " onclick="
             var i = '<?php echo $item['id']; ?>';
             sactree_addson(i);
             " >加子</div>

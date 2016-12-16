@@ -28,6 +28,7 @@ var tool_enter=function(theidname,theidvalue,thetoolname){
             titlename: '',
             titlevalue: '' 
             };
+            
     $.ajax({
         url : $('#opurl').val()+'center/setsession',
         type : 'post',
