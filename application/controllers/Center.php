@@ -7,7 +7,7 @@ class Center extends CI_Controller
         parent::__construct(); 
         $this->cms = array();
         $this->cms['url']='localhost/output/mscenter/center';
-        $this->cms['port']=88;
+        $this->cms['port']=80;
         $this->cms['user']='belstar';
         $this->cms['pass']='20161122';
     }
