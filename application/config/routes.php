@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |	http://codeigniter.com/user_guide/general/routing.html
 |
 | -------------------------------------------------------------------------
-| RESERVED ROUTES
+| RESERVED ROUTES 
 | -------------------------------------------------------------------------
 |
 | There are three reserved routes:
