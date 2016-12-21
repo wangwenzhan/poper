@@ -62,6 +62,7 @@ class Center extends CI_Controller
     }
     public function stafflogin()
 	{
+		
         $resultno=0;//登录0失败；1成功
         $this->load->library('form_validation');
         $this->form_validation->set_rules('accountno', '账户', 'required');
@@ -75,7 +76,9 @@ class Center extends CI_Controller
         else
         {
             $paras=array($_POST['accountno']);
+			log_message('error','The $paras::'.$paras[0]);
             $staff=$this->rpc($this->cms,'get_staff',$paras);
+
             if($staff!=null and password_verify($_POST['password'],$staff['password']))
             {
                 $resultno=1;
@@ -110,6 +113,8 @@ class Center extends CI_Controller
         $_SESSION['themenu']=$this->rpc($this->cms,'get_smenu',$paras);
         $_SESSION['currentmenuid']=0;
         $data['others']='';
+		
+		log_message('error','The staffid::'.$_SESSION['staffid']);
         $this->load->view('center/header',$data);
         $this->load->view('center/index',$data);
         $this->load->view('center/footer',$data);

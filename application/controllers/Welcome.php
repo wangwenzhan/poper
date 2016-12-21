@@ -7,6 +7,7 @@ class Welcome extends CI_Controller {
 	{
         session_destroy();
         
+			log_message('error','Theiiiiiii::');
         $data['webtitle']='百星输出服务';
         $data['notice']='';
         
