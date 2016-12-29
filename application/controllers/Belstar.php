@@ -7,7 +7,7 @@ class Belstar extends CI_Controller
         parent::__construct(); 
         $this->bms = array();
         $this->bms['url']='localhost/output/msbelstar/belstar';
-        $this->bms['port']=80;
+        $this->bms['port']=88;
         $this->bms['user']='belstar';
         $this->bms['pass']='20161122';
     }
